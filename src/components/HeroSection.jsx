@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Built and launched Aceternity UI and Aceternity UI Pro from scratch
+            Built websites from scratch
           </p>
           <div className="grid grid-cols-2 gap-4">
             <Image
@@ -91,7 +91,7 @@ export default function HeroSection() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
-            Deployed 5 new components on Aceternity today
+            Deployed 5 new components on Vercel today
           </p>
           <div className="mb-8">
             <div
@@ -100,7 +100,7 @@ export default function HeroSection() {
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Startup template Aceternity
+              ✅ template Vecel
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
@@ -108,11 +108,11 @@ export default function HeroSection() {
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
+              ✅ Lorem Music CD
             </div>
             <div
               className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
+              ✅  registrations open
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4">
