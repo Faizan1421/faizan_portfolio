@@ -3,12 +3,12 @@ import Image from "next/image";
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 
-export default function HeroSection() {
+export default function TimelineSection() {
   const data = [
     {
       title: "2024",
       content: (
-        <div>
+        <div >
           <p
             className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Built websites from scratch
@@ -146,7 +146,7 @@ export default function HeroSection() {
     },
   ];
   return (
-    (<div className="w-full">
+    (<div className="w-full " id="TimelineSection">
       <Timeline data={data} />
     </div>)
   );

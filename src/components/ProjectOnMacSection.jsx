@@ -3,10 +3,10 @@ import React from "react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import Image from "next/image";
 
-export function ProjectScroll() {
+export function ProjectOnMacSection() {
   return (
     
-    <div className="flex flex-col overflow-hidden pt-20">
+    <div className="flex flex-col overflow-hidden  " id="ProjectOnMacSection">
       <ContainerScroll
         titleComponent={
           <div className="mb-10">
