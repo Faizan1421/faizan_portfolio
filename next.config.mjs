@@ -14,6 +14,12 @@ const nextConfig = {
         port: '',
         pathname: '/**', // Corrected to match all paths recursively
       },
+      {
+        protocol: 'https',
+        hostname: 'api.microlink.io',
+        port: '',
+        pathname: '/**', // Corrected to match all paths recursively
+      },
     ],
   },
 };
