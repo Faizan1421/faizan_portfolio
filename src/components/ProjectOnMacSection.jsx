@@ -6,7 +6,7 @@ import Image from "next/image";
 export function ProjectOnMacSection() {
   return (
     
-    <div className="flex flex-col overflow-hidden pt-20  " id="ProjectOnMacSection">
+    <div className="flex flex-col overflow-hidden pt-32 md:pt-20  " id="ProjectOnMacSection">
       <ContainerScroll
         titleComponent={
           <div className="md:pb-20">
