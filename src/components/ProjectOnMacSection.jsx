@@ -24,7 +24,7 @@ export function ProjectOnMacSection() {
           alt="hero"
           width={1000}
           height={1000}
-          className="mx-auto rounded-2xl object-cover  overflow-hidden"  
+          className="mx-auto rounded-2xl object-cover  overflow-hidden   " 
           draggable={false}
         />
       </ContainerScroll>
