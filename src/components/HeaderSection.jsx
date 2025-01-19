@@ -8,11 +8,12 @@ export function HeaderSection() {
   const words = ["Elegant","Sleek","Stylish","Trendy"];
   return (
     <BackgroundBeamsWithCollision>
+      {/* dont change classes in parent div */}
       <div className="h-screen flex flex-col justify-around mb-5 md:mb-0 py-20" id="HeaderSection">
         <div
-          className="  flex flex-col lg:flex-row items-center gap-20  md:gap-5 lg:gap-30 xl:gap-40 justify-center " 
+          className="  flex flex-col lg:flex-row items-center   gap-5 lg:gap-30 xl:gap-40 justify-center " 
         >
-          <h2 className="px-5 md:px-0 relative z-20 text-5xl  lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+          <h2 className="relative z-20 text-5xl  lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
             Hi, I am Faizan Tayyab
             <br />
             <div className="relative mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">

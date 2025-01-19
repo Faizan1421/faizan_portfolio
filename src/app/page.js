@@ -27,7 +27,7 @@ export default function Home() {
   };
   return (
     <HeroHighlight>
-      <div className="" >
+      <div className="px-5  " >
         {/* <BackgroundBeamsWithCollision> */}
         <HeaderSection />
         <TechnologiesSection />

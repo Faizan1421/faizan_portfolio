@@ -6,10 +6,10 @@ import Image from "next/image";
 export function ProjectOnMacSection() {
   return (
     
-    <div className="flex flex-col overflow-hidden pt-20 mt-10 " id="ProjectOnMacSection">
+    <div className="flex flex-col overflow-hidden pt-20  " id="ProjectOnMacSection">
       <ContainerScroll
         titleComponent={
-          <div className="mb-10">
+          <div className="md:pb-20">
             <h1 className="text-4xl font-semibold text-black dark:text-white ">
             One of My SAAS Application <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
