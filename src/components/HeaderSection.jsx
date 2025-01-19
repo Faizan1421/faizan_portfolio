@@ -10,8 +10,7 @@ export function HeaderSection() {
     <BackgroundBeamsWithCollision>
       <div className="h-screen flex flex-col justify-around mb-5 md:mb-0 py-20" id="HeaderSection">
         <div
-          className="  flex flex-col lg:flex-row items-center gap-20  md:gap-5 lg:gap-30 xl:gap-40 justify-center "
-          
+          className="  flex flex-col lg:flex-row items-center gap-20  md:gap-5 lg:gap-30 xl:gap-40 justify-center " 
         >
           <h2 className="px-5 md:px-0 relative z-20 text-5xl  lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
             Hi, I am Faizan Tayyab
